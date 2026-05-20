@@ -1,8 +1,9 @@
-```
+---
 name: wechat-crawler
 
 description: Crawls articles from WeChat Official Accounts, along with their statistics (read count, likes, "Worth Reading" count, share count) and comment data. Users only need to provide their browser Cookie; the program will automatically extract the Token, verify API availability, and then crawl all articles of the target Official Account.Built with Selenium + BeautifulSoup, it supports intelligent Cookie management: it prioritizes the user-provided browser Cookie, automatically converts its format, and stores the Cookie in the database for persistence.
-```
+
+---
 
 
 
